@@ -1,7 +1,6 @@
 body{
     margin: 25px;
-    background-color: #000;
-    color: #fff;
+    color: #000;
 }
 span{
     color: #E45826;
@@ -40,7 +39,7 @@ input[type=text],
 input[type=email],
 input[type=radio],
 textarea{
-    border-style: none;
+    border-style: #000;
     border-radius: 4px;
     margin-top: 10px;
     outline-style: none;
