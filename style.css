@@ -1,0 +1,53 @@
+body{
+    margin: 25px;
+    background-color: #000;
+    color: #fff;
+}
+span{
+    color: #E45826;
+}
+.box,
+.date-box{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+.box{
+    width: 20%;
+}
+.date-box{
+    width: 15%;
+}
+.title{
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+button{
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #FFC300;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ffae00;
+}
+input[type=text],
+input[type=email],
+input[type=radio],
+textarea{
+    border-style: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    outline-style: none;
+    padding: 5px;
+}
+input[type=text],
+input[type=email]{
+    height: 20px;
+}
+
